@@ -1,8 +1,29 @@
 aid: sila-nanotechnologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sila-nanotechnologies.png
 name: Sila Nanotechnologies
-description: Sila Nanotechnologies is a company surfaced as a portfolio company of 8vc, bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Sila Nanotechnologies is a next-generation battery materials company founded
+  in 2011 and headquartered in Alameda, California, with a commercial-scale
+  manufacturing plant in Moses Lake, Washington. Sila develops silicon-based
+  anode materials — marketed as Titan Silicon — that replace conventional
+  graphite anodes to increase the energy density of lithium-ion batteries used
+  in consumer electronics, electric vehicles, and other applications. The
+  company was surfaced as a portfolio company of 8VC and Bessemer Venture
+  Partners and added to the API Evangelist network. Sila is a physical
+  materials and manufacturing company and does not publish a public developer
+  API, SDK, or documentation surface; this profile captures its public web and
+  security posture only.
 url: https://raw.githubusercontent.com/api-evangelist/sila-nanotechnologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Battery Materials
+- Energy Storage
+- Silicon Anode
+- Manufacturing
+- Advanced Materials
+- Clean Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://silanano.com
+- type: WellKnown
+  url: well-known/sila-nanotechnologies-well-known.yml
+- type: SecurityTxt
+  url: well-known/sila-nanotechnologies-security.txt
+- type: DomainSecurity
+  url: security/sila-nanotechnologies-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/sila-nanotechnologies-vulnerability-disclosure.yml
+- type: Security
+  url: well-known/sila-nanotechnologies-security.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
